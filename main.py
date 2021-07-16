@@ -23,7 +23,7 @@ class WallStreamBetsAlphaModel(AlphaModel):
     
     symbol_data_by_symbol = {}
 
-    def __init__(self, mentions_threshold=5):
+    def __init__(self, mentions_threshold=200):
         self.mentions_threshold = mentions_threshold
         
     def Update(self, algorithm, data):
